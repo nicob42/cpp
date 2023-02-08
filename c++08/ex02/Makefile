@@ -8,7 +8,7 @@ SRC = $(wildcard *.cpp)
 OBJ = $(patsubst %.cpp, obj/%.o, $(SRC))
 
 # Compilateur
-CC = g++
+CC = c++
 
 # Options de compilation
 CFLAGS = -std=c++98 -Wall -Wextra -Werror
